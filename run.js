@@ -11,8 +11,9 @@ var readline = require('readline');
 /*参数*/
 
 //数据目录路径，配置文件bitcoin.conf将会覆盖这里 （这个必须要改）
-//MacOS下默认为      /home/XXX/Library/Application\ Support/Tcash/
-//Linux默认为       /home/XXX/.tcash/
+//MacOS下(Tcash等山寨比币)默认为      /home/XXX/Library/Application\ Support/Tcash/
+//MacOS下(比特币)默认为              /home/XXX/Library/Application\ Support/Bitcoin/
+//Linux默认为                      /home/XXX/.tcash/
 var DATA_PATH = "/home/jonathan/.tcash/";
 
 //要获取的地址数量（10000个差不多）
