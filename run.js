@@ -10,11 +10,11 @@ var readline = require('readline');
 
 /*参数*/
 
-//数据目录路径，配置文件bitcoin.conf将会覆盖这里 （这个必须要改）
-//MacOS下(Tcash等山寨比币)默认为      /home/XXX/Library/Application\ Support/Tcash/
-//MacOS下(比特币)默认为              /home/XXX/Library/Application\ Support/Bitcoin/
+//数据目录路径，配置文件bitcoin.conf将会覆盖这里 （这个必须要改,用户名和币的名称都在路径中）
+//MacOS下(Tcash等山寨比币)默认为      /Users/XXX/Library/Application\ Support/Tcash/
+//MacOS下(比特币)默认为              /Users/XXX/Library/Application\ Support/Bitcoin/
 //Linux默认为                      /home/XXX/.tcash/
-var DATA_PATH = "/home/jonathan/.tcash/";
+var DATA_PATH = "/Users/gannicus/Library/Application\ Support/Tcash/";
 
 //要获取的地址数量（10000个差不多）
 var NUM_TO_FETCH = 10000;
